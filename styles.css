@@ -1,0 +1,463 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Contenedor general */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* HERO con video */
+.hero.with-video {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.hero .overlay {
+    background-color: rgba(0, 0, 0, 0.5); 
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-start;   /* alinea arriba */
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 100px;         /* sube el contenido */
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+/* Títulos */
+.hero h1 {
+    font-size: 4.5em;
+    margin-bottom: 15px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.7em;
+    max-width: 800px;
+    margin: 0 auto 20px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* Navegación */
+.hero nav {
+    margin-top: 20px;
+}
+
+.hero nav a {
+    color: white;
+    font-weight: bold;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.hero nav a:hover {
+    color: #ffd700;
+}
+
+/* Secciones */
+section {
+    margin: 40px 0;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    min-width: 250px;
+}
+
+/*Nosotros*/
+.nosotros {
+    background-color: #2c2c2c;
+    color: #f0f0f0;
+    text-align: center;
+    padding: 60px 20px;
+    font-family: 'Roboto', sans-serif;
+    margin: 40px auto;
+    max-width: 1500px; /* Igual que el container */
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.8);
+}
+.nosotros h2 {
+    letter-spacing: 0.5em;
+    font-weight: 400;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.nosotros p {
+    max-width: 700px;
+    margin: 0 auto 20px;
+    line-height: 1.7;
+    font-size: 1.1em;
+    font-weight: 300;
+}
+.nosotros p strong {
+    font-weight: 700;
+}
+
+
+/* Testimonios */
+blockquote {
+    font-style: italic;
+    border-left: 4px solid #0d6efd;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+/* Formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+button {
+    padding: 12px;
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0b5ed7;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .social a:hover {
+    color: #ffd700;
+}
+
+/* Servicio moto con imagen y texto */
+.servicio-moto {
+    display: flex;
+    flex-direction: column; /* Texto arriba, imagen abajo */
+    align-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+.servicio-moto .servicio-texto {
+    width: 100%;
+    margin-bottom: 20px; /* espacio entre texto y imagen */
+}
+
+.servicio-moto .servicio-img {
+    width: 180px; /* imagen más grande */
+}
+
+.servicio-moto .servicio-img img {
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Responsive para móviles */
+@media (max-width: 768px) {
+    .servicio-moto {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .servicio-moto .servicio-img {
+        width: 100%;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .servicio-moto .servicio-texto {
+        margin-bottom: 10px;
+    }
+}
+/* Sección Galería del Taller */
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.galeria-grid img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    transition: transform 0.3s ease;
+}
+
+.galeria-grid img:hover {
+    transform: scale(1.03);
+}
+
+#galeria h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+.horarios {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.horarios h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+.horarios ul {
+    list-style: none;
+    font-size: 1.1em;
+    line-height: 1.8;
+    color: #555;
+    padding: 0;
+}
+
+.horarios ul li {
+    margin-bottom: 10px;
+}
+
+.ubicacion {
+    margin: 40px auto;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    text-align: center;
+    max-width: 1100px;
+}
+
+.ubicacion h2 {
+    margin-bottom: 25px;
+    font-size: 2em;
+    color: #333;
+}
+
+.mapa-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+}
+.productos {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.productos h2 {
+    font-size: 2.2em;
+    margin-bottom: 30px;
+    color: #0d6efd;
+}
+
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.producto-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+}
+
+.producto-card h3 {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.producto-card p {
+    margin: 5px 0;
+    color: #555;
+}
+/* Botones de categorías */
+.boton-categorias, .categoria-btn {
+    background-color: #979595;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    margin: 5px;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+.categoria-btn {
+    display: none;
+}
+.boton-categorias:hover, .categoria-btn:hover {
+    background-color: #e5e7ea;
+}
+/* Grid de productos */
+.productos-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.producto-card {
+    background: #f4f4f4;
+    padding: 15px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: calc(33% - 20px);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.producto-card:hover {
+    transform: translateY(-5px);
+}
+
+.productos-grid.hide {
+    display: none;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .producto-card {
+        width: 100%;
+    } 
+}
+.borde-encabezado img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.borde-encabezado {
+    position: relative;
+    text-align: center;
+}
+
+.borde-encabezado img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.titulo-productos {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    font-weight: 700;
+    background: linear-gradient(to right, rgb(151, 141, 201), #ededed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+.boton-busqueda {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.boton-categorias {
+    padding: 10px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

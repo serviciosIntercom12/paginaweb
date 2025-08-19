@@ -1,0 +1,1090 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Productos - Multiservicios Intercom</title>
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <div class="borde-encabezado">
+    <img src="Imagenes/ImgenMoto.png" alt="Borde repuestos para motos">
+    <h1 class="titulo-productos">Productos en venta</h1>
+</div>
+<section class="container">
+    <div class="boton-busqueda">
+    <button class="boton-categorias" onclick="toggleCategorias()">Mostrar productos por categoría</button>
+        </div>
+    <div id="categorias">
+        <button class="categoria-btn" onclick="mostrarCategoria('aceites y lubricantes')">Aceites y Lubricantes</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('abrazaderas')">abrazaderas y Alternadores</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('cables')">Cables</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('sistema de arrastre')">sistema De Arrastre</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('sistema de freno')">Sistema de Freno</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('llantas')">Llantas</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('camaras')">Camaras</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('luces y focos')">Luces y Focos</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('espejos')">Espejos y Adaptador</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('faros')">Faros</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('bateria')">Baterias</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('anillos')">Anillos y Arrancadores</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('brazos')">Brazos de Embrague y Freno</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('empaques')">Empaques</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('Embrague')">Embragues</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('filtros')">Filtros de Aire</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('carburador')">Carburadores</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('brujia y busos')">Brujia y Busos</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('chapas')">Chapas</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('manubrio y maniguetas')">Manubrios y Maniguetas</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('direccional')">Direccionales</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('comandos')">Comandos</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('jebes')">Jebes</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('kit')">Kit de Pernos, Piñones y Retenes</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('parador')">Parador</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('pedal')">Pedales</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('piñon de arrastre')">Piñones de Arrastre</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('ramal electrico')">Ramal Electrico</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('retenes')">Retenes</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('rodajes')">Rodajes</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('tapabarros')">Tapabarros</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('tableros')">Tableros</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('topes')">Topes</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('tubos de escape')">Tubos de escape</button>
+        <button class="categoria-btn" onclick="mostrarCategoria('candados y capuchon')">Candados y Capuchon de bujia </button>
+        <button class="categoria-btn" onclick="mostrarCategoria('otros')">Otros</button>
+    </div>
+
+    <div id="aceites y lubricantes" class="productos-grid hide">
+        <div class="producto-card"><h3>Aceite MOTOR SINTETICO PLUS IPONE  20/50</h3><p><strong>Marca:</strong> IPONE</p></div>
+        <div class="producto-card"><h3>Aceite MOTUL 5100 15W50  1L - SEMI-SINTETICO</h3><p><strong>Marca:</strong> MOTUL</p></div>
+        <div class="producto-card"><h3>Aceite MOTUL 7100 20W50  1L - SINTETICO </h3><p><strong>Marca:</strong> MOTUL</p></div>
+        <div class="producto-card"><h3>Aceite THORO OIL SYNTHETIC BLEND 4T  20/50</h3><p><strong>Marca:</strong>THORO OIL</p></div>
+        <div class="producto-card"><h3>Aceite  THORO OIL SYNTHETIC BLEND 4T  25/50</h3><p><strong>Marca:</strong>THORO OIL</p></div>
+        <div class="producto-card"><h3>Aceite STANLEY SYNTHETIC  4T  20/50</h3><p><strong>Marca:</strong>STANLEY</p></div>
+        <div class="producto-card"><h3>Aceite STANLEY SYNTHETIC  4T  20/50  1200</h3><p><strong>Marca:</strong>STANLEY</p></div>
+        <div class="producto-card"><h3>Aceite STANLEY SYNTHETIC  4T  20/50  1500</h3><p><strong>Marca:</strong>STANLEY</p></div>
+        <div class="producto-card"><h3>Aceite  MOTOR FULL POWER KATANA   10W40</h3><p><strong>Marca:</strong>KATANA</p></div>
+        <div class="producto-card"><h3>ACEITE IPONE 20.5 SEMI SINTECTIC 20W50</h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>ACEITE IPONE 15.5 SEMI SITETIC  15W50</h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>ACEITE REPSOL 2W50 MOTO 4T RIDER TOWN</h3><p><strong>Marca:</strong>REPSOL</p></div>
+        <div class="producto-card"><h3>ACEITE MINERAL ROJO 25W50 1L LUBRICATE</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>ACEITE MINERAL ROJO 20W50 1L LUBRICATE</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>ACEITE FERPI 25W30 SL 4T X12LT</h3><p><strong>Marca:</strong>FERPI</p></div>
+        <div class="producto-card"><h3>0W90 MULTIGRADO P/CAJA CARGUERO </h3><p><strong>Marca:</strong>VISTONY</p></div>
+        <div class="producto-card"><h3>85W140 MULTIGRADO P/CORONA CARGUER</h3><p><strong>Marca:</strong>VISTONY</p></div>
+        <div class="producto-card"><h3>ACEITE GASTROL ACTEVO 20W50 4T.GP</h3><p><strong>Marca:</strong>GASTROL</p></div>
+
+        <div class="producto-card"><h3>LUBRICANTE DE CADENA 250 ML </h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>LUBRICANTE DE CADENA 280 ML</h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>LUBRICANTE DE CADENA CHICO </h3><p><strong>Marca:</strong>IPONE</p></div>
+    </div>
+
+    <div id="abrazaderas" class="productos-grid hide">
+        <div class="producto-card"><h3>ABRAZADERA PLASTICO (PRESINTOS)4.8*300MM</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ABRAZADERA FIERRO GRANDE</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ABRAZADERA FIERRO MEDIANA</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ABRAZADERA FIEERO PEQUEÑA</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ABRAZADERA CG125/CG150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ABRAZADERA DE TAPABARRO GL150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ABRAZADERA DE TAPABARRO DELANTERO</h3><p><strong>Marca:</strong>BJR</p></div>
+
+        <div class="producto-card"><h3>ALTERNADOR CG150 (8P,3H) (Tanaka)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ALTERNADOR TRIFASICO CG250 (12P,3H) (Tanaka)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ALTERNADOR SCOOTER 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ALTERNADOR 11B.2H.TRIFASICO SCOOTER 150</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>ALTERNADOR 12B-2H TRIFASICO SCOOTER 150</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>ALTERNADOR 8B.2H.MONOFASICO SCOOTER 125</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>ALTERNADOR 8B.2H CB200</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ALTERNADOR 8B.3H.CG150</h3><p><strong>Marca:</strong>TVR</p></div>
+    </div>
+
+    
+    <div id="cables" class="productos-grid hide">
+        <div class="producto-card"><h3>CABLE ACELERADOR BROWSS 200 - KIGCOL</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR SOL 7*7-15MM TORITO</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR GL125 - TVR</h3><p><strong>Marca:</strong> TVR</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR SCOOTER 150</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR SCOOTER 125</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR CCKAPA GL 150</h3><p><strong>Marca:</strong> CCKAPA</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR TORITO 7*7-1.5MM*3M</h3><p><strong>Marca:</strong> BAJAJ</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR GL 125/150</h3><p><strong>Marca:</strong> CCKAPA</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR CARG.LS200</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR CARG.S200  GL150</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR CG200 CARGUERO E/AIRE</h3><p><strong>Marca:</strong> TVR</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR GL 150 MOTOTAXI</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR 110</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR 185X</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERASOR BRS 99CM </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR YMH – F16 CH</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR G125N</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR PLSR 135</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR TNDO CH</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR C125 BF</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR PLSR 200-N</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR DOBLE YMH X250TZ</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR MTF D/CABLE CH</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE AVELERADOR CR230F 2PCS</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR WV110</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR DOBLE YMH X125TZ</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR G150L MTK</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR APCH 160/180</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR G125LCABLE DOBLE</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE ACELERADOR DX7 </h3><p><strong>Marca:</strong> RCC</p></div>
+
+        <div class="producto-card"><h3>CABLE EMBRAGUE SOLO 1.80 MTS. </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE SOLO UNIVERSAL Reforzado</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>CABLE DE EMBRAGUE GL150 DM 150  </h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>CABLE DE EMBRAGUE CG 125 131 MM </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE CG125  </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE DE EMBRAGUE XL185 </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE CARGUERO 216 CM.CABINA</h3><p><strong>Marca:</strong> MOTOC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE DISCOVER 125</h3><p><strong>Marca:</strong> MOTORCICLE</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE XL185 </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE CB110 </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE GL125C/RESORTE </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE CBR190 A</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE CG125</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE XR250</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE BRWOSS 200 CHINA</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE CF110 </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE MTF LARGO</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE BRS</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE STM </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE G150L MTK</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE C125N</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE TNDO 250</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE RF230</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE PLSR 20-N </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE X250 TZ YMH</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE EMBRAGUE LGC</h3><p><strong>Marca:</strong> RCC</p></div>
+
+        <div class="producto-card"><h3>CABLE FRENO DELANTERO CARG. LS 200 </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE FRENO DELANTERO WAVE 100</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE FRENO DELANTERO GL150</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE DE FRENO TAMBOR ITLK CS 125/XS125 </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE FRENO WV110 ARO RAYOS</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE FRENO G150L MTK</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE FRENO DELANTERO SCOOTER 125</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE FRENO DELANTERO SCOOTER 1.49MT 150 </h3><p><strong>Marca:</strong> VOLVA</p></div>
+        <div class="producto-card"><h3>CABLE FRENO POSTERIOR SCOOTER 125</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CABLE FRENO POSTERIOR SCOOTER 150 </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+
+        <div class="producto-card"><h3>CABLE TACOMETRO GL 150 </h3><p><strong>Marca:</strong> GENUINE</p></div>
+        <div class="producto-card"><h3>CABLE TACOMETRO CABINA 1095 MM. CARG.LS200 </h3><p><strong>CHINA YANG:</strong> RCC</p></div>
+
+        <div class="producto-card"><h3>CABLE VELOCIMETRO PLSR 200N</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO G125L F/DISCO/ROSCA </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO BRS/8B LARGO 105CM</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO G125L MTF</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO G150Y/200</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO SCOTR G6Y-125 F/DISCO</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>ABLE VELOCIMETRO TAMBOR ITLK CD125/XS125</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO Y125R</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO G125L ARO MAG D/R</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO C125G ULTRA ARO RAYOS</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO QINGQI 200</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO G150L MTK</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO DISCO ITLK CD125/XS125 </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO 185X </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO STM F/DISCO </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO YMH X125TZ </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO G125L F/DISCO C/ROSCA</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO X125R</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO PLSR 180</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO DX7</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO TAMBOR ITLK DC125/DS150-St.</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>CABLE VELOCIMETRO MTFD/RODCA ARO 16</h3><p><strong>Marca:</strong> RCC</p></div>
+    </div>
+
+
+    <div id="sistema de arrastre" class="productos-grid hide">
+        <div class="producto-card"><h3>CADENA ARRASTRE  428H 142L KMC</h3><p><strong>Marca:</strong> KMC</p></div>
+        <div class="producto-card"><h3>CADENA ARRASTRE  428H 150L KMC</h3><p><strong>Marca:</strong> KMC</p></div>
+        <div class="producto-card"><h3>CADENA ARRASTRE  428H 150L SFX </h3><p><strong>Marca:</strong> SFX</p></div>
+        <div class="producto-card"><h3>CADENA ARRASTRE 428H 150L - ACC</h3><p><strong>Marca:</strong> ACC</p></div>
+        <div class="producto-card"><h3>CADENA ARRASTRE 428H 142L - ACC</h3><p><strong>Marca:</strong> ACC</p></div>
+        <div class="producto-card"><h3>CADENA ARRASTRE 520H 110L UNIVERSAL</h3><p><strong>Marca:</strong> EVERESTT</p></div>
+        <div class="producto-card"><h3>CADENA ARRASTRE 520H 114L </h3><p><strong>Marca:</strong> KMC</p></div>
+
+        <div class="producto-card"><h3>CADENA DE LEVAS  2*3 96L SCOOTER 125 - Kigcol</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CADENA DE LEVAS 2*3 102L CBX 125 </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CADENA DE LEVAS 3*4*412H (Taiwan)</h3><p><strong>Marca:</strong> CAM CHAIN </p></div>
+        <div class="producto-card"><h3>CADENA DE LEVAS 404H-90L SCOOTER 150 </h3><p><strong>Marca:</strong> TVR</p></div>
+        <div class="producto-card"><h3>CADENA DE LEVAS 25H 94L UNIVERSAL</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>CADENA DE LEVAS 25H 100L TW B110 F</h3><p><strong>Marca:</strong> NEWEL</p></div>
+        <div class="producto-card"><h3>CADENA DE LEVAS 2*3 96L UNIVERSAL</h3><p><strong>Marca:</strong> HONGJU</p></div>
+        <div class="producto-card"><h3>C35090 CADENA DE LEVAS 3*4*104L UNIVERSAL UNIVERSAL</h3><p><strong>Marca:</strong> HONGJU</p></div>
+
+        <div class="producto-card"><h3>CATALINA 35T.4H.428 CG125 CG 125 </h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 36T 4H.428 WAVE 110 4B</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 37T - CG 125 - 428 4H   TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 38T.4H.428 WAVE100 WAVE 100 </h3><p><strong>Marca:</strong> SFX</p></div>
+        <div class="producto-card"><h3>CATALINA 37T.4H.520 PULSAR180 DT PULSAR 180 DTS</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 37T.6H.520 PULSAR 200NS PULSAR 200 NS</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 37T.4H.428 PLANA DT 100 DT 100</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 38T.4H.428 PLATO CGL 125 - TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 39T - CG 125 - 428 4H   TECNI </h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 40T 4H 428 PLATO GC 150 - TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 37T.4H.520 PULSAR180 DT PULSAR 180 DTS</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 41T 4H 428 BROWSS – TECNI -(Z-ONE)</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 42T GL PLATO 428 BJR</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 42T CGL PLATO 428 TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 42T.4H.428 CG 125- TECNI-HIRO</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 45T.4H.428 CG 125- TECNI </h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 45T.4H.428 CG125/MOTOTAXI CG 125</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 43T PLATO TECNI </h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 38T .4H.520 TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 37T .4H.428 YAMAHA</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 43T .4H.428 PLATO DT100 TECNI </h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 43T.4H.428 BROWS 200 CHINA TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 45T.4H.428 PLATO GL150</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 43T.4H.428. CG 150 TECNI</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 47T.4H.428 BROWSS200 BROWSS 200 CHINA</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>CATALINA 50T.6H BROWS 200 HONDA</h3><p><strong>Marca:</strong> TECNI</p></div>
+        <div class="producto-card"><h3>CATALINA 50T.4H.428 BROWSS200 BROWSS 200 CHINA </h3><p><strong>Marca:</strong> ALA</p></div>
+        <div class="producto-card"><h3>CATALINA 50T .4H.428 XL 185 </h3><p><strong>Marca:</strong> TECNI</p></div>
+
+        <div class="producto-card"><h3>SEGURO PIÑON ARRASTRE CG125 C/PERNO -BJR</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>SEGURO CADENA 520 XL 200</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>SEGURO 520 CADENA O-RING CANDADOS </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>SEGURO PIÑON ARRASTRE C/PERNOS BJR CG 125 </h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>SEGURO DE DISCO CON ALARMA SEMI PECADO</h3><p><strong>Marca:</strong> LOCKS</p></div>
+        <div class="producto-card"><h3>SEGURO TIMON RTM CYT (Motorepuestos dos ruedas )</h3><p><strong>Marca:</strong> EVERESTT</p></div>
+
+        <div class="producto-card"><h3>EJE DE CAMBIO CG150/CG200 SIN UÑA CG150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EJE DE CAMBIO CON CACHO COMPAT. Carguero</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE DE CAMBIO S/UÑA 215MM CB150/WX150</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE DE HORQUILLA 12*25.5CM C/TOPE CG125 </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE LEVAS CG 125/150 + PIN + PIÑON-CIGÜEÑAL Kigcol</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>EJE LEVAS CB-200 C/RODAJE Kigcol </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>EJE POSTERIOR CG C/TOPE 15MM*23MM CG125</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE POSTERIOR GL C/TOPE 15MMX 28.00MM GL150</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE POSTERIOR RUEDA 14*23CM CG/CB125 CG 125</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE RUEDA POTS.15*27.50 CM COMPLETO BROWS 200 </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE RUEDA DELANTERA 19.00CM*12MM CG125 </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE DE RUEDA DELANTERA 21.00CM*12MM C/TOPE </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE DE TRAPECIO GL C/T (M12X270mm)GL 150 </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>EJE TRAPECIO C/TUERCA BROS 125 HONDA ANTI</h3><p><strong>Marca:</strong> NULL</p></div>
+    </div>
+    
+    <div id="sistema de freno" class="productos-grid hide">
+        <div class="producto-card"><h3>ZAPATA PEQUEÑA CG 125 SCOOTER</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>ZAPATA POSTERIOR PUÑO GL 150</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>ZAPATA FRENO PUÑO GL 125 – 150</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>ZAPATA FRENO PUÑO GL 125 – 150</h3><p><strong>Marca:</strong> TVR</p></div>
+        <div class="producto-card"><h3>ZAPATA FRENO PLANA C / RESORTE CGL 150 </h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>ZAPATA FRENO POSTERIOR PLANO GL125 - BJR</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>ZAPATA FRENO PANA C/RESORTE</h3><p><strong>Marca:</strong> EDE</p></div>
+        <div class="producto-card"><h3>ZAPATA XL 185 DEL/POST CG 125 XL 185</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>ZAPATA DT 100 PLANA C/RESORTE</h3><p><strong>Marca:</strong> PREMIER</p></div>
+
+        <div class="producto-card"><h3>TEMPLADOR DE ARRASTRE/ XTZ 125 </h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>TEMPLADOR ARRASTRE PAR-WY CG150</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>TEMPLADOR AUTOMATICO CADENILLA C100/110</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>TEMPLADOR CADENA ARRASTRE GL125</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>TEMPLADOR CADENA ARRASTRE PULSAR 160</h3><p><strong>Marca:</strong> NULL</p></div>
+
+        <div class="producto-card"><h3>VARILLA DE FRENO  47 CM CG125</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>VARILLA DE FRENO  49 CM  CG 150</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>VARILLA DE FRENO 51 CM WX 150 </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>VARILLA DE FRENO  54 CM GL 150</h3><p><strong>Marca:</strong> NULL</p></div>
+
+        <div class="producto-card"><h3>PASTILLA DE FRENO NS200/CBR250</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLA DE FRENO CB190/INVICTA</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO JETTOR F51 JETOR 150 </h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO CB110 Lifan</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO PULSAR 135</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO SCOOTER 150 </h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO CBF 150 Unicor</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO CB 150</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE CG/GL 125 150</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLAS DE FRENO REDONDA Y6 200</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>PASTILLA DE FRENO FZ 6 600.POSTERIOR</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+    </div>
+
+    <div id="llantas" class="productos-grid hide">
+        <div class="producto-card"><h3>LLANTA 275*17MIXTA GOSTONE</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 110/90*17 TT MR-921 MIXTA</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 110/70*17 TL MR-660 PISTERA</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 110/70*17 TL 4PR CY277 MIXTA</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 90/90*17 TL YUANXING MIXTA</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 275*18 PO2 4PR TT LINEAL - Yuanxing </h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA *90/90*17 TL P190 P4PISTERA - Yuanxing</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA P190 PISTERA *90/90*17 - Yuanxing </h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA P190 PISTERA 275*18 - Yuanxing</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA MOTO PISTERA 275*18 JEFF</h3><p><strong>Marca:</strong> JEFF</p></div>
+        <div class="producto-card"><h3>LLANTA MOTO 3.00*21 Yuanxing Mixta</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 275*18   MR 311 GOSTONE DELANTERA</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 275*18 TL MR 067 GOSTONE PISTERA S/C</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 300*18   GOSTONE PISTERA </h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 300*18 TT CROSS - GOSTONE</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA PISTERA YUANXING 350*10 (TL)</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 325*18 TL GOSTONE PISTERA</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 100*90*18 TL YUANSING MIXTA</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 275*17 YUANXING TT P35 </h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 90/90*18 TL PISTERA TIMSUM</h3><p><strong>Marca:</strong> TIMSUM</p></div>
+        <div class="producto-card"><h3>LLANTA 500*12 TT SEYOUN GOSTONE</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 500*12 TT MIXTA</h3><p><strong>Marca:</strong> DUCNI</p></div>
+        <div class="producto-card"><h3>LLANTA 300*18 TT GOSTONE 8MM</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>LLANTA 110/90*10 TL 4PR P50 PISTERA YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 100/90*10 TL 4PR P253 PISTERA YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA LLANTA 100/90*10 TL 4PR P253 PISTERA YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 140/60*17 TL 4PR P333 PISTERA YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 100/90*10 TL 4PR P253 PISTERA YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>LLANTA 410*17 CROSS GOSTONE</h3><p><strong>Marca:</strong> GOSTONE </p></div>
+        <div class="producto-card"><h3>LLANTA 410*18 CROSS GOSTONE</h3><p><strong>Marca:</strong> GOSTONE </p></div>
+    </div>
+
+    <div id="camaras" class="productos-grid hide">
+        <div class="producto-card"><h3>CAMARA YUANXING   275*17</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA VITELLI BOLSA 460*17</h3><p><strong>Marca:</strong> VITELLI</p></div>
+        <div class="producto-card"><h3>CAMARA YUANXING   275*18</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>AMARA  3*18 TR4 SFX</h3><p><strong>Marca:</strong> SFX</p></div>
+        <div class="producto-card"><h3>CAMARA VITELLI BOLSA 300*18</h3><p><strong>Marca:</strong> VITELLI</p></div>
+        <div class="producto-card"><h3>CAMARA GOSTONE BOLSA 300*17</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>CAMARA TANAKA BOLSA 300*18</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>CAMARA SAFEWAY 300/275*17TR4</h3><p><strong>Marca:</strong> SEFAWAY</p></div>
+        <div class="producto-card"><h3>CAMARA YUANXING 350*10 BOX TR87</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA YUANXING 300*21</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA YUANXING 325/350*18</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA YUANXING BOX TR  460/4*17</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA VITELLI 500*12 BOLSA</h3><p><strong>Marca:</strong> VITELLI</p></div>
+        <div class="producto-card"><h3>CAMARA 460-410*18 YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA 460*17 TANAKA</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>CAMARA 460*18 TANAKA</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>CAMARA 350/325*18 YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA 500*12 GOSTONE</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>CAMARA 300*18 GOSTONE</h3><p><strong>Marca:</strong> GOSTONE</p></div>
+        <div class="producto-card"><h3>CAMARA 250/275*18 TR4 SAFEWAY</h3><p><strong>Marca:</strong> SAFEWAY</p></div>
+        <div class="producto-card"><h3>CAMARA 250/275*17 TR4 SAFEWAY</h3><p><strong>Marca:</strong> SAFEWAY</p></div>
+        <div class="producto-card"><h3>CAMARA 275/300*17 TR4 SFX</h3><p><strong>Marca:</strong> SFX</p></div>
+        <div class="producto-card"><h3>CAMARA 300*17 YUANXING TR4 BAG</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA 350*17 SFX TR4 BAG </h3><p><strong>Marca:</strong> SFX</p></div>
+        <div class="producto-card"><h3>CAMARA 130/60*13 PITON RECTO YUANXING</h3><p><strong>Marca:</strong> YUANXING</p></div>
+        <div class="producto-card"><h3>CAMARA 130/60*13 TR87 SAFEWAY</h3><p><strong>Marca:</strong> SEFAWAY</p></div>
+        <div class="producto-card"><h3>CAMARA 130/90*15 SAFEWAY</h3><p><strong>Marca:</strong> SEFAWAY</p></div>
+        <div class="producto-card"><h3>CAMARA 350*10 TR87 SAFEWAY </h3><p><strong>Marca:</strong> SEFAWAY</p></div>
+    </div>
+
+    <div id="luces y focos" class="productos-grid hide">
+        <div class="producto-card"><h3>FOCO DEL. AZUL H4 - PULSAR</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO POSTERIOR 2 CONTACTOS- 12V – Auto Lamp </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO DEL. CANON LUPA DUAL H4</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO DEL. PAYASO LUPA ARO ANGEL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO DIRECCIANAL G18 12V 10W </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO 2 CONTACTO CAJA UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO FARO POST LED ROJO SF4513 POST</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO DELANTERO REDONDO CANON LUPA</h3><p><strong>Marca:</strong> JAI LING</p></div>
+        <div class="producto-card"><h3>FOCO DIRRECIONAL 1 CONTACTO</h3><p><strong>Marca:</strong> LAMP BULBS</p></div>
+        <div class="producto-card"><h3>FOCO DIRRECIONAL 12V ROJO</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>FOCO FARO POST.LED 1034 BAY15D-6SMD</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>FOCO 6 LED COB BASE GL 9-18V UNIVERSAL</h3><p><strong>Marca:</strong> LED</p></div>
+        <div class="producto-card"><h3>FOCO DELANTERO H4 BL 3 LEDS HURACAN</h3><p><strong>Marca:</strong> LED</p></div>
+        <div class="producto-card"><h3>FOCO AUTOLED HEADLIGHT H4 CARAS4000</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FOCO 4 CARAS AUTOLED  H4 - 4000 lmx</h3><p><strong>Marca:</strong> LED</p></div>
+        <div class="producto-card"><h3>FOCO LAGRIMA MULTICOLOR LED</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FOCO T20 LAGRIMON HALOGENO AMBAR</h3><p><strong>Marca:</strong> LAMP BULBS</p></div>
+
+        <div class="producto-card"><h3>LUCES AMBAR NEON 30 M FLASH </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>LUCES CAPSULAS LED ROJO UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>LUCES CAPSULAS LED LILA UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>LUCES CAPSULAS LED AZUL UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>LUCES PLATANITO 34 LEDS GZ248</h3><p><strong>Marca:</strong> JAI LING </p></div>
+        <div class="producto-card"><h3>LUCES ROBOTITO 3 LUPAS POLICIAL</h3><p><strong>Marca:</strong> CAR</p></div>
+        <div class="producto-card"><h3>LUCES 3X3 REPOTENCIADAS  UNIVERSAL</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>LUCES LED COB ALUMINIO OJO DE H  </h3><p><strong>Marca:</strong> ROMA</p></div>
+        <div class="producto-card"><h3>LUCES LED T10 FLASH ROJO+AZUL 12V(univ) </h3><p><strong>Marca:</strong> NULL</p></div>
+    </div>
+    
+    <div id="espejos" class="productos-grid hide">
+        <div class="producto-card"><h3>ESPEJO ROMBO BROWSS MODERNA</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>ESPEJO NEGRO NAPOLEON C/JEFE HILO NORMAL mototaxi </h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>ESPEJOS 10MM.CB 190R HILO INVERTIDO</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>ESPEJOS PULSAR NS200 hilo invertido </h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>ESPEJOS 10MM. FUEGO NEGRO CR ES4NE</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>ESPEJO DEPORTIVO UNIVERSAL Negro/ Rojo</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>ESPEJOS HONDA CG 125</h3><p><strong>Marca:</strong> EVERESTT</p></div>
+        <div class="producto-card"><h3>ESPEJOS PML.CARGUERO –B LS 200</h3><p><strong>Marca:</strong> PREMIER</p></div>
+        <div class="producto-card"><h3>ESPEJOS 10MM.FIBRA 15 ES12 UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>ESPEJOS FIBRA AZUL UNIVERSAL</h3><p><strong>Marca:</strong> GRC</p></div>
+        <div class="producto-card"><h3>ESPEJOS STD AZUL UNIVERSAL</h3><p><strong>Marca:</strong> GRC</p></div>
+        <div class="producto-card"><h3>ESPEJOS CB 110 - RCC </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>ESPEJOS MOTOTAXI NEGRO NAPOLEON GL150</h3><p><strong>Marca:</strong> PREMIER</p></div>
+        <div class="producto-card"><h3>ESPEJOS DISCOVER 125 HILO INVERSO</h3><p><strong>Marca:</strong> RAUDO</p></div>
+        <div class="producto-card"><h3>ESPEJOS 10MM NEGRO TEKKEN/GP 200 ALUMINIO</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>ESPEJOS 08 MM SCOOTER HILO INVERTIDO125</h3><p><strong>Marca:</strong> KIGCOL</p></div>
+        <div class="producto-card"><h3>ESPEJOS BRS ROMBO ROJO/NEGRO - RCC</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>ESPEJOS PCBF 150 - PREMIER </h3><p><strong>Marca:</strong> PREMIER</p></div>
+        <div class="producto-card"><h3>ESPEJOS 10MM.DOBLE COLOR AZUL STD</h3><p><strong>Marca:</strong> HONGJU</p></div>
+        <div class="producto-card"><h3>ESPEJOS 08MM. SCOOTER 150</h3><p><strong>Marca:</strong> RAUDO</p></div>
+        <div class="producto-card"><h3>ESPEJOS M10 CBF 150 UNICOR</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>ESPEJOS M10 BROSS 200 CHINA</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>ESPEJOS SCOOT. 175/CS125 </h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>ESPEJOS DISCOVER 135</h3><p><strong>Marca:</strong> RCC</p></div>
+        <div class="producto-card"><h3>ADAPTADOR DE ESPEJOS -  M 10</h3><p><strong>Marca:</strong> UNI</p></div>
+        <div class="producto-card"><h3>ADAPTADOR DE ESPEJOS -  M 8</h3><p><strong>Marca:</strong> UNI</p></div>
+    </div>
+    <div id="faros" class="productos-grid hide">
+        <div class="producto-card"><h3>FARO DELANTERO GL Cuadrado</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DIRECIONAL AMARILLO.</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO REDODO 6 LUCES A/B</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO CUADRADO 18 Led A/B</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO REDODO 18 Led A/B</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO POSTERIOR MOTOTAXI ZS T BANDERA 150</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO POSTERIOR CARGUERO LS 200</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARITO BUHO MTY20 LUZ FIJA UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO LIFAN BANDERITA GL 150 MOTOTAXI</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DIR. S/BRAZO GL 150 MOTOTAXI - CCKAPA</h3><p><strong>Marca:</strong> CCKAPA</p></div>
+        <div class="producto-card"><h3>FARO LIFAN BANDERITA 22 LEDS GL 150 MOTOTAXI</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO REDONDO TITAN NEGRO CG150</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO 26 LEDS BLACO 5CYB26LESW 5 PULGADAS</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARITO BUHO BLANCO Y AMARILLO UNIVERSAL</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>FARO PELIGRO CARGUERO IZQUIERDO/DERECHO</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO PELIGRO POSTERIOR CARGUERO LS200</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARITOS PAR CANON LASER BASE FIJA X15 universal </h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARITOS CAÑON LASER UNIVERSAL +INTERRUPTOR</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO DAX C/BASE ROJO -BJR C70</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL PARA STORM BLACO-PCS125</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO REDONDO 07 LED UNIVERSAL</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DEL.CB 150 INVICTA C/MASCARA ROJO</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DEL.LED C/MASCARA AZUL CCPAKA XR150L</h3><p><strong>Marca:</strong> CCPAKA</p></div>
+        <div class="producto-card"><h3>FARO DEL.C/MASCARA AZUL PULSAR 200NS</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO DD 150-5C</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARO LED GL COMPLETO UNIVERSAL</h3><p><strong>Marca:</strong> Motorcycle</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO C/MASCARA AZUL PULSAR 135</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARITO BUHO BUHO  KMM30W4D </h3><p><strong>Marca:</strong> MOTOLED</p></div>
+        <div class="producto-card"><h3>FARO 4 LEDS GZ50 NEON AZUL UNIVERSAL</h3><p><strong>Marca:</strong> JAI LING</p></div>
+        <div class="producto-card"><h3>FARITO 3 LUPAS LIVIANO GZ296ESTABLE UNIVERSAL</h3><p><strong>Marca:</strong> JAI LING</p></div>
+        <div class="producto-card"><h3>FARO DEL.PULSAR 200NS C/MASCARA ROJA</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO POSTERIOR /PELIGRO CARG.LED DER/IZQ</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL GL150 </h3><p><strong>Marca:</strong> JAILING</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL HALOGENO AMBAR (PAR) GL FARO</h3><p><strong>Marca:</strong> CCKAPA</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL GL150  MODERNA MOTOTAXI</h3><p> <strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL DISCOVER 125</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL LED CG125/150</h3><p><strong>Marca:</strong> JAI LING</p></div>
+        <div class="producto-card"><h3>FARO NEBLINERO CALABERA LIVIANO PLATEADO</h3><p><strong>Marca:</strong> TANAKA</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL LUCES LED</h3><p><strong>Marca:</strong> PREMIER</p></div>
+        <div class="producto-card"><h3>FARO DELANTERO RECTANGULAR GL 150</h3><p><strong>Marca:</strong> BJR</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL LED BUHO</h3><p><strong>Marca:</strong> UR</p></div>
+        <div class="producto-card"><h3>FARO DIRECCIONAL UNIVERSAL</h3><p><strong>Marca:</strong> NULL</p></div>
+        <div class="producto-card"><h3>FARITO XK20WXXY AMARILLO XX </h3><p><strong>Marca:</strong> MOTOLED</p></div>
+        <div class="producto-card"><h3>FARITO PAR BUHOS (LUZ FIJA ) UNIVERSAL</h3><p><strong>Marca:</strong> JAI LING</p></div>
+    </div>     
+    <div id="bateria" class="productos-grid hide">
+        <div class="producto-card"><h3>BATERIA 12N7 BL 3A BS</h3><p><strong>Marca:</strong>RAUDO</p></div>
+        <div class="producto-card"><h3>BATERIA YTX7A-BS GEL - SMF</h3><p><strong>Marca:</strong> RAUDO</p></div>
+        <div class="producto-card"><h3>BATERIA YTX5L-BS   MOTONORTEC</h3><p><strong>Marca:</strong>MOTONR/p></div>
+        <div class="producto-card"><h3>BATERIA YTX7A -- BS GEL – HONGJU  11x13x7 </h3><p><strong>Marca:</strong>MOTORTEC</p></div>
+        <div class="producto-card"><h3>BATERIA   12N7BL –BS PREMIER</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>BATERIA SECA 12N9 – 3B GEL – HONGJU  13x13x7</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BATERIA SECA 12N5 -- BS GEL – HONGJU  12x13x6 </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BATERIA SECA YTX7A-BS GEL - SCOOTER HONGJU</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BATERIA SECA 12N7BL-BS-B5 – KIGCOL  14.5x12x6</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BATERIA YTX7L12N5 -- BS GEL – HONGJU  11x13x7 </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BATERIA ULTRABAT ETNA  40N-GL1B 12V</h3><p><strong>Marca:</strong>ETNA</p></div>
+        <div class="producto-card"><h3>BATERIA 12N7A-BS (12N7-3A) GEL</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BATERIA 12N6.5 GEL</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BATERIA 12N6.5 GEL</h3><p><strong>Marca:</strong>MOTORTEC</p></div>
+        <div class="producto-card"><h3>BATERIA 12N9-3B BS SMF</h3><p><strong>Marca:</strong>RAUDO</p></div>
+        <div class="producto-card"><h3>BATERIA  YTX9-BS</h3><p><strong>Marca:</strong>ETNA</p></div>
+        <div class="producto-card"><h3>BATERIA YTX7A-BS</h3><p><strong>Marca:</strong>KICGOL</p></div>
+        <div class="producto-card"><h3>BATERIA 12N7L – BS</h3><p><strong>Marca:</strong>HONGJU</p></div>
+    </div>
+    <div id="anillos" class="productos-grid hide">
+        <div class="producto-card"><h3>ANILLOS STD.  CD-110</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ANILLOS STD.  RTM 150T GY 150 -  SUKOKI</h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS 0.25 SCOOTER 150 -  SUKOKI </h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS 0.25 CG125 - Sukoki</h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS STD. TITAN 2002 150 CG 125 TITAN</h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS 0.25 TITAN CG150 BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>ANILLOS 0.50 CG 150 </h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS 0.25 63.00 A CG 200</h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS STD .CG150</h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS STD CG150 BR TITAN CG150</h3><p><strong>Marca:</strong>SUKOKI</p></div>
+        <div class="producto-card"><h3>ANILLOS STD CG150 </h3><p><strong>Marca:</strong>OSAKAMOTOR</p></div>
+
+        <div class="producto-card"><h3>ARRANCADOR 9T .MAVILA 300</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ARRANCADOR COMPATIBLE CG-125/150 KIGCOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ARRANCADOR 11T.CG250 AGUA C/CAL.GIRO INVERTI.</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ARRANCADOR 09T.CG125/150 SIN PIÑON </h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>ARRANCADOR 11T.CG200 SIN PIÑON GC200</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>ARRANCADOR CB-110</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>ARRANCADOR MOD- CYT C100/110</h3><p><strong>Marca:</strong>EVERESTT</p></div>
+        <div class="producto-card"><h3>ARRANCADOR BAJAJ - PULSAR 135</h3><p><strong>Marca:</strong>AMERICAN</p></div>
+        <div class="producto-card"><h3>ARRANCADOR CB200/250 </h3><p><strong>Marca:</strong>OSK</p></div>
+        <div class="producto-card"><h3>ARRANCADOR GN 125 - 9T</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ARRANCADOR CBF 150 - 9T</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ARRANCADOR DISCOVERY 135 - 9T/Pin Delgado</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ARRANCADOR 09T.YX300 C/CABLE YX 300 </h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+    <div id="brazos" class="productos-grid hide">
+        <div class="producto-card"><h3>BRAZO EMBRGUE CG125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BRAZO EMBRAGUE CG125 ULTRA-KIGCOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRAZO EMBRAGUE GL 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO EMBRAGUE CG150</h3><p><strong>Marca:</strong>BJR</p></div>
+
+        <div class="producto-card"><h3>BRAZO DE FRENO POSTERIOR CBF 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO DE FRENO POSTERIOR GN125 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO DE FRENO POSTERIOR CG 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO DE FRENO POSTERIOR CGL 150 LARGO</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO DE FRENO DEL. WX 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO FRENO POSTERIOR SCOOTER125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO FRENO POSTERIOR CARGUERA + PING  LS200 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO FRENO POSTERIOR LARGO CGL 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRAZO DE FRENO POSTERIOR WAVE 110</h3><p><strong>Marca:</strong>BJR</p></div>
+
+        <div class="producto-card"><h3>BRAZO BALANCIN CG125/150/200/250</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRAZO OSCILANTE/BALANCINES CG150</h3><p><strong>Marca:</strong>HONGJU</p></div>
+    </div>
+    <div id="empaques" class="productos-grid hide">
+        <div class="producto-card"><h3>EMPAQUE ALTERNADOR – CG150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMPAQUE CABEZAL – SCOOTER 125 – RCC </h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>MPAQUE CABEZAL – SCOOTER 125 – RCC </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>EMPAQUE COMPLETO, YX 300 – RCC</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>EMPAQUE CARBURADOR CB 125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMPAQUE CARBURADOR CB 125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMPAQUE TUBO DE ESCAPE C100/110 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMPAQUE TUBO DE ESCAPE ABESTO SCOOT</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMPAQUE CULATA DR125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMPAQUE CULATA /CILINDRO METAL CG 250 AGUA</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>EMPAQUE ALTERNADOR CB200 </h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+    <div id="Embrague" class="productos-grid hide">
+        <div class="producto-card"><h3>EMBRAGUE COMPLETO REFORZASO SCOOTER 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>EMBRAGUE COMP. CG150 (5P5D) - KIGKOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>EMBRAGUE COMPLETO CG150 (5P5D)-BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>EMBRAGUE COMPLETO (5P6D70T)CG150</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>EMBRAGUE COMPLETO (6P6D73D)16003 CG150</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>EMBRAGUE COMPLETO (6P6D73D)600 GC150/200</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>EMBRAGUE COMPLETO (5P6D73D)18T CG 150</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>EMBRAGUE (4P5D) YBR125/XTZ125 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>DISCO DE EMBRGUE 5 Piezas CG150 – Kigcol</h3><p><strong>Marca:</strong>KGCOL</p></div>
+        <div class="producto-card"><h3>DISCO DE EMBRGUE 6 Piezas CG150 – (Tanaka- Japonés) </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>DISCO DE EMBRGUE 7 PIESAS</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>DISCO DE EMBRGUE 6 PIESAS </h3><p><strong>Marca:</strong>TSK</p></div>
+        <div class="producto-card"><h3>DISCOS EMBRAGUE 7 PIEZAS 15MM CG200</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>DISCO CLUTCH 5PIEZAS CG125/150</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+
+    </div>
+    <div id="filtros" class="productos-grid hide">
+        <div class="producto-card"><h3>FILTRO GASOLINA UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO AIRE UNIVERSAL 48MM </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO AIRE CARTON C/FILTMALLA BROWSS 200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE/ESPONJAS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE UNIVERSAL 35MM</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE REDONDO SCOOTER 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO AIRE SCOOTER 175 PCSW CUADRADO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO AIRE BROSS SFX 200 CHINA</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO ACIETE CBX250/XR250 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIERE MAVILA 250/300 BASE C/ESPONJA </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE UNIVERSAL CON ADAPTADOR</h3><p><strong>Marca:</strong>EVERESTT</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE SCOOTER 125 TRIANGULO</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE SCOOTER ELITE 125 DS 125 ITALIKA</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE GN 125</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE MAVILA 250</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE ESPONJA CG125 ULTRA </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>FILTRO DE AIRE UNIVERSAL </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>CAJA FILTRO DE AIRE CURVO CARGUERO LS.200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CAJA FILTRO DE AIRE C100/110 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CAJA FILTRO AIRE CGL125</h3><p><strong>Marca:</strong>BJR</p></div>
+
+    </div>
+
+    <div id="carburador" class="productos-grid hide">
+        <div class="producto-card"><h3>BRIDA CARBURADOR EURO -C-PERNOS CG 150 kigcol</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR CG 200 KIGCOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR CURVO XL200 BJR </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR EURO C/PERNO CG 200 KIGCOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR CG 150 BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR C100 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR YX 300 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR SCOOTER 125/150 BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR WANX 150 C/SALIDA TVR</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>BRIDA CARBURADOR CG 200</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>CARBURADOR SCOOTER - 150 (Tanaka –Japonés)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CARBURADOR PZ27 CG 150 (Tanaka -Japonés)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CARBURADOR PZ30 CG 200 (Tanaka- Japonés)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CARBURADOR CG125 PZ26 </h3><p><strong>Marca:</strong>BJR</p></div>
+    </div>
+
+    <div id="brujia y busos" class="productos-grid hide">
+        <div class="producto-card"><h3>BUJIA C7HSA NGK SCOOTER 125 </h3><p><strong>Marca:</strong>NGK</p></div>
+        <div class="producto-card"><h3>BUJIA CR7HSA TVR SCOOTER 150 </h3><p><strong>Marca:</strong>TVR</p></div> 
+        <div class="producto-card"><h3>BUJIA DP8EA – 9 CG 125 </h3><p><strong>Marca:</strong>NGK</p></div> 
+        <div class="producto-card"><h3>BUJIA CR8E – NGK PULSAR / YETTOR - CF 125 </h3><p><strong>Marca:</strong>NGK</p></div> 
+        <div class="producto-card"><h3>BUJIA CR8E – PUNTA IRIDIUM XR PULSAR / DISCOVERY 135</h3><p><strong>Marca:</strong>TVR</p></div> 
+        <div class="producto-card"><h3>BUJIA NGK BR BP5EY GREEN TICO MOTOBOMBA </h3><p><strong>Marca:</strong>NGK</p></div> 
+        <div class="producto-card"><h3>BUJE TRAPECIO CG 125</h3><p><strong>Marca:</strong>KIGCOL</p></div> 
+        <div class="producto-card"><h3>BUSOS CATALINA CG125/XL185 (JEBE+METAL) 4P.</h3><p><strong>Marca:</strong>KIGCOL</p></div> 
+        <div class="producto-card"><h3>BUSOS CATALINA GL 150  4P.</h3><p><strong>Marca:</strong>BJR</p></div> 
+        <div class="producto-card"><h3>BUSOS CATALINA XL 185  4P. </h3><p><strong>Marca:</strong>BJR</p></div> 
+        <div class="producto-card"><h3>BUJE BOCAMAZA 3/8  CG150</h3><p><strong>Marca:</strong>NULL</p></div> 
+        <div class="producto-card"><h3>BUJE DE BOCAMAZA POST. CGL125 / WX (LONA) 4PCS CGL 125 </h3><p><strong>Marca:</strong>NULL</p></div> 
+        <div class="producto-card"><h3>BUSOS CATALINA GL 150  4P. 3/8 </h3><p><strong>Marca:</strong>NULL</p></div> 
+    </div>
+
+    <div id="chapas" class="productos-grid hide">
+        <div class="producto-card"><h3>CHAPA DE CONTACTO GL 150 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CHAPA MAS TAPA DE TANQUE RECTANGULAR GL150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO/TAPA TANQUE GL REDONDA BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO CG125</h3><p><strong>Marca:</strong>UPPROUD</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO HONDA ULTRA CG 125 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO DM 150</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO CG125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO GL125/150</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO Y T/TANQUE SCOOTER 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO WX 150 COBRA -150 </h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO SCOOTER DZ JGO DZHS 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA +TAPA TANQUE GL 150 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO SCOOTER 150 DS 150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA TAPA TANQUE GL150 REDONDA</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CHAPA TAPA TANQUE </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO GL 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO PUSAR 135 DTS</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO BROWSS LLAVE LARGA 200</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO MFG CARG.250 YANZUMI</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CHAPA CONTACTO CG125</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+    </div>
+
+    <div id="manubrio y maniguetas" class="productos-grid hide">
+        <div class="producto-card"><h3>MANUBRIO COMPAT. BROSS 200</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MANUBRIO UNIVERSAL MONSTER AZUL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MANUBRIO UNIVERSAL MONSTER ROJO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MANUBRIO ALUMINIO +GOMA AZUL UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+
+        <div class="producto-card"><h3>MANIGUETAS/TUBO ACELERADOR MOD. BROSS </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>MANIGUETAS/TUBO ACELERADOR MOD. BROSS </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>MANIGUETAS ACL GL 150 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>MANIGUETAS DYTN VERDE UNIVERSAL </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>MANIGUETAS NEGRO UNIVERSAL</h3><p><strong>Marca:</strong>ROMA</p></div>
+        <div class="producto-card"><h3>MANIGUETAS NEGRO/AMARILLO</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>MANIGUETAS JUEGO DE PROTECTOR UNIVERSAL</h3><p><strong>Marca:</strong>GROWPAL</p></div>
+        <div class="producto-card"><h3>MANIGUETAS JUEGO DE PROTECTOR UNIVERSAL</h3><p><strong>Marca:</strong>GROWPAL</p></div>
+        <div class="producto-card"><h3>MANIGUETAS JUEGO DE PROTECTOR NEGRO</h3><p><strong>Marca:</strong>GROWPAL</p></div>
+        <div class="producto-card"><h3>MANIGUETAS NEGRO/AMBAR </h3><p><strong>Marca:</strong>SINERGY</p></div>
+        <div class="producto-card"><h3>MANIGUETAS AZUL</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>MANIGUETAS DORADO </h3><p><strong>Marca:</strong>RCC</p></div>
+    </div>
+
+    <div id="direccional" class="productos-grid hide">
+        <div class="producto-card"><h3>DIRECCIONAL PICARON AMBAR UNIVERSAL</h3><p><strong>Marca:</strong>Motorcicle</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL HT05 LUCES</h3><p><strong>Marca:</strong>TAIL LAMP </p></div>
+        <div class="producto-card"><h3>DIRECCIONAL AMARILLO. </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL CG S/BRAZO -CCKAPA CG 150</h3><p><strong>Marca:</strong>CCKAPA</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL LED AZ/AM CARBONO SIMPLE</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL ZXD90 PAR LUCES</h3><p><strong>Marca:</strong>TURN</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL LED FLECHITAS FARO </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL PULSAR 135PAR DTS</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL GDBS-045 CARBONO -BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL LED COMPAT.XR150 </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL LED LUCES</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL LES LUCES</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>DIRECCIONAL POSTERIOR PAR -BZHRO200</h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+    </div>
+
+    <div id="comandos" class="productos-grid hide">
+        <div class="producto-card"><h3>COMANDO IZQUIERDO GL150 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>COMANDO DERECHO GL150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>COMANDO DERECHO BROWSS 200</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>COMANDO IZQUIERDO BROWSS 200</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>COMANDO IZQUIERDO GL125 GL 125</h3><p><strong>Marca:</strong>KICGOL</p></div>
+        <div class="producto-card"><h3>COMANDO IZQUIERDO WX150 WANXIN BOTON VENTILADOR</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>COMANDO DERECHO WX150 WANXIN WX 150 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>COMANDO DERECHO CARG. LS200 CARG. LS 200</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>COMANDO IZQUIERDO CARG. LS200 C/INTERR. VENTIL CARG.</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>COMANDO DERECHO BROWSS200 ARRANQUE BROWSS 200 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+    </div>
+
+    <div id="jebes" class="productos-grid hide">
+        <div class="producto-card"><h3>JEBE DE BOCAMAZA PUL180 BOXER150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE BOCAMAZA CGL125 LONA </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE BOCAMAZA GL-KITDE 4 GL150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE BOCAMAZA BROSS (LONA)BROSS200 </h3><p><strong>Marca:</strong>RESSELUX</p></div>
+        <div class="producto-card"><h3>JEBE DE BOCAMAZA C-50/WAVE 110</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE DE BOCAMAZA POST.BROWS 200CHINA</h3><p><strong>Marca:</strong>RESSELUX</p></div>
+        <div class="producto-card"><h3>JEBE PEDAL CAMBIO CB 125 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE TANQUE DELANTERO CARG.LS 200</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE TANQUE DELANTERO (PEQUEÑO)GL 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JEBE PEDAL CAMBIO CB 125 </h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+
+    <div id="kit" class="productos-grid hide">
+        <div class="producto-card"><h3>KIT BRAZO BALANCIN CG300(DELGADO) CG 300</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT BRAZO BALANCIN CG 150</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>KIT DE BALANCINES CG125/150/200/250</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT DE ARRASTRE CB 190R 428H+132L/45T/14T </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT EJE LEVAS CG 125/150/200</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT JUEGO EMPAQUE COMPLETO - C100 - KIGCOL</h3><p><strong>Marca:</strong>KICGOL</p></div>
+        <div class="producto-card"><h3>KIT RESORTE PARADOR LATERAL CGL 125/150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>KIT PERNOS CATALINA+ARANDELA GL 125 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT PERNOS CATALINA XL 185/BROSS</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>KIT PERNOS CATALINA GN 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>KIT PERNOS CATALINA GC 125 / WX 150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>KIT PERNOS CATALINA MODELO BROWSS 200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT PIÑONES/TENSORES/CADENILLA C110 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT PIÑONES /TENSADORES/CADENILLA CB110 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>KIT RETENES MOTOR SCOOTER GY6 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>KIT RENETENES CG 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>KIT RETENES MOTOR CG125/150/200/250 CG</h3><p><strong>Marca:</strong>RAUDO</p></div>
+    </div>
+
+    <div id="parador" class="productos-grid hide">
+        <div class="producto-card"><h3>PARADOR LATERAL PULSAR 180 DTS </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL PULSAR 200 NS</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL 100/110 C110</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL 19.50CM WAVE 100 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL 21CM PULSAR 135 DTS </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL 34CM NX150 BROWS 200 CHINA</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL C/RESORTE 34.5CM GY200</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL COMPAT.GL125 </h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL UNIVERSAL ROJO-PA10RO </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL UNIVERSAL NEGRO-PA10RO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL UNIVERSAL AZUL -PA10RO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PARADOR LATERAL FZ16C/RESORTE+PERNO</h3><p><strong>Marca:</strong>BJR</p></div>
+    </div>
+
+    <div id="pedal" class="productos-grid hide">
+        <div class="producto-card"><h3>PEDAL DE CAMBIO MFG - C/VARILLA-CARG. LS 200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PEDAL CAMBIO C100/110 –BJR C110</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PEDAL CAMBIO MOTOTAXI CG1250 ULTRA</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PEDAL DE CAMBIO LARGO 55MM CARG.LS125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PEDAL DE CAMBIOS CARG. LS200 VARILLA LARGA CARG. LS 200</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PEDAL DE CAMBIO CG 20MM T/WX-150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PEDAL ARRANQUE GL125/GL150 RECTO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PEDAL DE ARRANQUE GL125 RECTO GL 125 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PEDAL DE ARRANQUE GL125 CURVO MODELO "S" GL 125 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PEDAL DE FRENO POSTERIOR GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>PEDAL DE ARRANQUE CURVO 1 PERNO 60MM CRAG.</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PEDAL DE CAMBIO CARGUERA C/VARILLA LARG. Bjr </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PEDAL ARRANQUE CARGUERA 2PERNOS CRAG.LD 200</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PEDAL DE CAMBIO C100/110</h3><p><strong>Marca:</strong>BJR</p></div>
+    </div>
+
+    <div id="piñon de arrastre" class="productos-grid hide">
+        <div class="producto-card"><h3>PIÑON ARRASTRE 14T 428 WAVE-100 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 14T 428 CG 125 - SFX</h3><p><strong>Marca:</strong>SFX</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 15T NX 428 BROSS - KIGCOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 15T 428 CG 125 - TECNI</h3><p><strong>Marca:</strong>TECNI</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 15T .428H CG200 HIRO</h3><p><strong>Marca:</strong>TECNI</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 14T.428 CG150</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 13T .428 TECNI</h3><p><strong>Marca:</strong>TENCI</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 13T .428 CG 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 13T. PULSAR 180DTS</h3><p><strong>Marca:</strong>AMERICAN</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 14T .428 CG150</h3><p><strong>Marca:</strong>TECNI</p></div>
+        <div class="producto-card"><h3>PIÑON ARRASTRE 14T.428 XL185</h3><p><strong>Marca:</strong>TECNI</p></div>
+    </div>
+
+    <div id="ramal electrico" class="productos-grid hide">
+        <div class="producto-card"><h3>RAMAL ELECTRICO LINEAL CG/GL150 (Tanaka)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RAMAL ELECTRICO MOTOTAXI   GL150 (Tanaka)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RAMAL ELECTRONICO CARGUERO 520MMP/Cavina tvr</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>RAMAL ELECTRONICO TRIFASICO CARG.LD 200 TVR</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>RAMAL ELECTRICO SCOOTER 150 ITALIKA DZ150 </h3><p><strong>Marca:</strong>EVERREST</p></div>
+    </div>
+
+    <div id="retenes" class="productos-grid hide">
+        <div class="producto-card"><h3>RETEN ARRANQUE 16-28-7.2 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN ARRASTRE 30-42-10.50</h3><p><strong>Marca:</strong>ROUDO</p></div>
+        <div class="producto-card"><h3>RETEN ARRASTRE  20*34*7 </h3><p><strong>Marca:</strong>SFX</p></div>
+        <div class="producto-card"><h3>RETEN CIGÜEÑAL 34-50-7 </h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+        <div class="producto-card"><h3>RETEN 31*43*10.5 TELESC.PAR.WY GL 150 </h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+        <div class="producto-card"><h3>RETEN 50*63*11 TELESCOPICA </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 33*45*8/10.5 TELESCOPICA R15 125 YZF</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 27*37*10.5 TELESCOPICA CG 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 41*54*11 TELESCOPICAS INVERTIDAS RETENES</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN DE TAPA DE CULATA CG CG 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN DE CAJA DE RETROCESO CARG.LS200 20*35*7 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN VALVULA VERDE HONDA (DOBLE RESORTE)</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN DE VALVULA CG 150 (DOBLE RESORTE)</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETENVALVULA 350CC-6MM (DOBLE RESORTE)</h3><p><strong>Marca:</strong>HONDA</p></div>
+        <div class="producto-card"><h3>RETEN TAPA DE BALANCIN CG 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN VALVULA HOMDA MARON (DOBLE RESORTE ) </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN VALVULA 1 RECORTE AZ CG125</h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+        <div class="producto-card"><h3>RETEN 25*35*6 CAJA RETROSESO -CARGUERO</h3><p><strong>Marca:</strong>MOTOC</p></div>
+        <div class="producto-card"><h3>RETEN 55*7*8 CAJA RETROSESO CARGUERA LS200</h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+        <div class="producto-card"><h3>RETEN 28*45.47;58-10.5 CAJA RETROSESO LS200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 41*53.50*11 TELESCOPICA PAR GIXXER150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 50*63*11 TELESCOPICA </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 28*45/62 CAJA RETROSECO C/SOMBRERO </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>RETEN 25*40*24*8.6 TELECOPICA CARGUERA LS200</h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+
+    <div id="rodajes" class="productos-grid hide">
+        <div class="producto-card"><h3>RODAJES 6002 XRL </h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6203 XRL </h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6203 XRL</h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6004 TANAKA</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RODAJES 6006   Tanaka </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RODAJES 6201 2RS - KIGCOL </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>RODAJES 6202 2RS C3</h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6202 TANAKA</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RODAJES 6206 XRL</h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6302 TANAKA</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RODAJES 6301</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RODAJES 6303 - XRL</h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6304 - XRL</h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJES 6204 TANAKA</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>RODAJE 6302 SPC</h3><p><strong>Marca:</strong>SPC</p></div>
+        <div class="producto-card"><h3>RODAJE 6302 2RS -XRL</h3><p><strong>Marca:</strong>XRL</p></div>
+        <div class="producto-card"><h3>RODAJE 63&#47;28 RS UND -CARGUERO LS 200 </h3><p><strong>Marca:</strong>MOTOC</p></div>
+        <div class="producto-card"><h3>RODAJE 30204 CONICO 47*20 CARGUERO</h3><p><strong>Marca:</strong>ENMOTTO</p></div>
+        <div class="producto-card"><h3>RODAJE 30206 CONICO CARGUERA</h3><p><strong>Marca:</strong>YANG ZU</p></div>
+        <div class="producto-card"><h3>RODAJE CONICO GL 150 320/22.5-320/24 - CG150 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>RODAJE 6005-2RSM</h3><p><strong>Marca:</strong>KOYO</p></div>
+        <div class="producto-card"><h3>RODAJE 6907-2RS</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 6403-2RS</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 16003 </h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 608 </h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 6902-2RS </h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 6006-2RS </h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 6002-2RS</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 6003-2RS</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>RODAJE 6201-2RS</h3><p><strong>Marca:</strong>RCC</p></div>
+    </div>
+
+    <div id="tapabarros" class="productos-grid hide">
+        <div class="producto-card"><h3>TAPABARRO DELANTERO CROMADO GL 150 md.wx.bjr</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO RJ STORM 125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO POSTERIOR RJ METAL GL 150mototaxi </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO METAL POSTERIOR ROJO GL150mototaxi </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO PLASTICO POST. HONDA ROJO GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO PLASTICO POST. HONDA AZUL GL150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO PLASTICO POST.HONDA NEGRO GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO METAL NG GL 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO NG PLASTICO GL150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO AZ TIBURON METAL GL150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO RJ PLASTICO GL150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO AZ PLASTICO GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELNATERO RJ METAL GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO AZ GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DELANTERO NEGRO PULSAR NS200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPABARRO DEL. ROJO GL150 MOTOTAXI TIBURON METAL GL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPA BOCAMAZA POSTERIOR C/VARILLA C/ZAPATA</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TAPA DE BOCAMAZA FURGON CARG.LS 200 </h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+
+    <div id="tableros" class="productos-grid hide">
+        <div class="producto-card"><h3>TABLERO PULSAR 135 - BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>TABLERO ELECTRONICO HONDA STORM 125 - VOLDA V</h3><p><strong>Marca:</strong>VOLVA</p></div>
+        <div class="producto-card"><h3>TABLERO CG125 MECANICO CG 150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>TABLERO GL C/5 CAMBIOS MECANICO GL150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>TABLERO C/5 CAMBIOS ELTRONICO GL 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>TABLERO LIBERTY 150-BJR  </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>TABLERO BROSS MODELO CROSS 200 CHINA </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TABLERO CG-ELECTRONICO </h3><p><strong>Marca:</strong>REY</p></div>
+        <div class="producto-card"><h3>TABLERO DIGITAL BROSS 200 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>TABLERO DIGITAL CG 150 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>TABLERO DIGITAL GL 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+    </div>
+
+    <div id="topes" class="productos-grid hide">
+        <div class="producto-card"><h3>TOPE DE EJE RUEDA ROJO(P)UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE RUEDA AZUL (P) UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE DE RUEDA NEGRO (P) UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE GRANADA SLIDER ROJO UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE GRANADA SLIDER NEGRO UNIVERSAL </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE RUEDA AMARILLO (P)UNIVERSAL </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE GRANADA SLIDER AZUL UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE GRANADA SLIDER AMARILLO UINVERSAL </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TOPE RUEDA NARANJA (P)UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+
+    <div id="tubos de escape" class="productos-grid hide">
+        <div class="producto-card"><h3>TUBO DE ESCAPE MOTOTAXI</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TUBO ESCAPE CORTO CARGUERO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TUBO DE ESCAPE LARGO PARA MOTO FURGON  </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TUBO DE ESCAPE 7G GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TUBO DE ESCAPE CARGUERO LARGO.LS 200 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>TUBO DE ESCAPE CB 110</h3><p><strong>Marca:</strong>NULL</p></div>
+    </div>
+    <div id="candados y capuchon" class="productos-grid hide">
+        <div class="producto-card"><h3>CANDADO CABLE EMBRAGUE  </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CANDADO CABLE EMBRAGUE STD</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CANDADO DE CABLE EMBRAGUE /SR.OLANO CB 125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CANDADO CUERDA D/ALAMBRE 4MM-120CM STD </h3><p><strong>Marca:</strong>LOCK </p></div>
+        <div class="producto-card"><h3>CANDADO CUERDA D/ALAMBRE 4MM-12CM</h3><p><strong>Marca:</strong>LOCK </p></div>
+        <div class="producto-card"><h3>CANDADO CUERDA D/ALAMBRE 4MM-12CM</h3><p><strong>Marca:</strong>LOCK </p></div>
+        <div class="producto-card"><h3>CAPUCHON de BUJIA PULSAR 135 DTS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CAPUCHON de BUJIA NEGRO CG 150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CAPUCHON de BUJIA INVICTA CB 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CAPUCHON de BUJIA SCOOTER ITALIKA 150</h3><p><strong>Marca:</strong>JYP</p></div>
+    </div>
+
+    <div id="otros" class="productos-grid hide">
+        <div class="producto-card"><h3>AGUA DESTILADA 500ml   VISTONE</h3><p><strong>Marca:</strong>VISTONI</p></div>
+        <div class="producto-card"><h3>ALARMA 1 CONTACTO ALARMA</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>ALARMA DE RETROCESO MILTIVOLTAJE UNIVERSAL</h3><p><strong>Marca:</strong>BACK UP</p></div>
+        <div class="producto-card"><h3>ALARMA ANTIROBO P/MOTOCICLETA </h3><p><strong>Marca:</strong>BJR </p></div>
+
+        <div class="producto-card"><h3>AMORTIGUADOR CG 150 – 330mm</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>AMORTIGUADOR CB 125 – 36CM CROMADA</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>AMORTIGUADOR PULSAR 135 </h3><p><strong>Marca:</strong>BAJAJ</p></div>
+        <div class="producto-card"><h3>AMORTIGUADOR MOTOTAXI 335MM GL 150 - TANAKA </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>AMORTIGUADOR SCOOTER ITALK-125</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>MONOSHOP/UÑA</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>AMORTIGUADOR NEGRO</h3><p><strong>Marca:</strong>RCC</p></div>
+
+        <div class="producto-card"><h3>ARO 1.60*18 DEL. MAG. de DISCO GL 150 Mototaxi-Prem. </h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>ARO 2.15*18 POST. ESTR. c/tope c/cat.  GL 150 Mototaxi LG </h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>ARO 2.15*18 POST. ESTR.  GL 150 Mototaxi – Lan G.</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>ARO  500 *12 5H CARGUERO LS200   GOSTONE </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ARO 1.60*18 DEL. MAG.F/ZAPATA ESTRELLA GL150 </h3><p><strong>Marca:</strong>PREMIER</p></div>
+
+        <div class="producto-card"><h3>ASIENTO 2 PERNOS LEJOS GL 150 MOTOTAXI </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ASIENTO NEGRO  1 PERNO GL 150 MOTOTAXI</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ASIENTO NEGRO CG125 </h3><p><strong>Marca:</strong>NULL</p></div>
+
+        <div class="producto-card"><h3>BALANCIN C/PINES GY6-150 - SCOOTER125 Kigcol   </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BALANCIN C/RODAJE ADMISION/ESCAPE YX</h3><p><strong>Marca:</strong>NULL</p></div>
+
+        <div class="producto-card"><h3>BARRA TELESC.  F/DISCO + RODAJES GL 150 Premier</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>BARRA TELESC.  F/ZAPATA S/RESORT GL 150 Premier </h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>BARRA DIRECCIONAL DELT. COMP. SCOOTER CS125 </h3><p><strong>Marca:</strong>UPPROUD</p></div>
+        <div class="producto-card"><h3>BASE TABLERO UNIVERSAL CG125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BENDIX + PIÑON 3 POLINES CG150 57T/5MM HONGJU</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>BENDIX  16 POLINES CG 200 BJR</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BOBINA DE ALTA CG 150 - TANAKA</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>BOBINA DE ALTA CB190R C/CAPUCHON XR125 </h3><p><strong>Marca:</strong>YANG ZU </p></div>
+        <div class="producto-card"><h3>BOBINA DE ALTA CG 125 C/CAPUCHON P/PEDAL</h3><p><strong>Marca:</strong>SFX</p></div>
+        <div class="producto-card"><h3>BOCINA TRAPECIO C/P MI 14MM ME 23MM CG125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BOCINA TRAPECIO METAL CG/GL 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BOMBA DE FRENO GL 150 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>BOMBA DE FRENO BROSS 200 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>BONBA RAMA CARGUERO FRENO POSTERIOR </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BORNE DE BATERIA UNIVERSAL</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>BONBA DE ACEITE 39T .CG250 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BONTON INTERRUPTOR UNIVERSAL REDONDO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BONTON INTERRUPTOR DOBLE CABEZAL 3 TOQUES </h3><p><strong>Marca:</strong>ROMA</p></div>
+        <div class="producto-card"><h3>BOTON ARRANQUE 2 CABLES SCOOTER SCOOTER 150 </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>BOTON ARRANQUE AMARILLO SEMIAUTOMATICA C110</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>BOTON CLAXON NEGRO SCOOTER 125</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CDI SALIDA CUADRADA 6 Pines – Monofásico CG150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CDI SALIDA CUADRADA 6 Pines – Trifásico LS200</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CAJA DE CAMBIOS CG 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CAJA DE RETROCESO 3000CC FURGON LS 200</h3><p><strong>Marca:</strong>UPPRUD</p></div>
+        <div class="producto-card"><h3>CAJA CAMBIOS CG300/YX300 CARG.AGUA</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CAJA CAMBIOS CG250 COMPLETO CG 250 AIRE</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CARGADOR B05 SOLA 12V UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CASCO FORRADO ADULTO </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CASCO ECONOMICO NEGRO UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CASCO ABATIBLE COLOR NEGRO</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CALIPER DELANTERO MOD. BROSS 200 REDONDO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CALIPER DELANTERO MOD. BROSS 200 REDONDO</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CALIPER DELANTERO C/DISCO (L/DER) PULSAR</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CALIPER POSTERIOR SOLO S/DISCOS BROSS200</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CALIPER POSTERIOR BROSS200</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>CALIPER POSTERIOR COMP. PÙLSAR NS200</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>CEPILLO LIMPIADOR CADENA PVC UNIVERSAL </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CINTA REFLECTIVA - 3M ELECTRONIC</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CINTA AISLADORA GRANDE 3M TIRAFON 200</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CINTA AISLADORA 3M*5 YARDAS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CINTA AISLADORA 3M*20 YARDAS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CILINDRO KIT COMPLETO GL 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CILINDRO CG150 149CC.PIN 15 CG 150 </h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>CILINDRO FIT GC150 CPMPLETO</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CIGÜEÑAL CMP.PIN 13 CG 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>CIGÜEÑAL CPM.PIN XTZ125/YBR125 </h3><p><strong>Marca:</strong>KICGOL</p></div>
+        <div class="producto-card"><h3>CLAXON UNIVERSAL TANAKA</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CLAXON 12V UNIVERSAL GL125   KIGCOL</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>CLAXON SOLO 12V UNIVERSAL HONGJU</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>CHANCHITO ARRANCADOR CG – 125 – 150 – BJR</h3><p><strong>Marca:</strong>BJR </p></div>
+        <div class="producto-card"><h3>CHANCHITO ARRANCADOR GL 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>CHANCHITO ARRANCADOR PULSAR 135 DTS</h3><p><strong>Marca:</strong> BJR </p></div>
+        <div class="producto-card"><h3>CHANCHITO ARRANCADOR PULSAR 135 DTS</h3><p><strong>Marca:</strong>RCC</p></div>
+        <div class="producto-card"><h3>ESPARRAGO  6*40 / TUERCA CG 125 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ESPARRAGO 8*40C/TUERCA TUBO DE ESCAPE CG200 </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ESPARRAGO POSTERIOR DERECHO 47.TUERCA</h3><p><strong>Marca:</strong>MOTOC</p></div>
+        <div class="producto-card"><h3>ESPARRAGO POSTERIOR IZQUIERDO 47.TUERCA</h3><p><strong>Marca:</strong>MOTOC</p></div>
+        <div class="producto-card"><h3>ESPARRAGO *12 CG 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ESPALDAR COPILOTO GL 150 MOTOTAXI (pequeño)</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ESPALDAR C/PERNO CHOFER GL 150 MOTOTAXI</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ESTRIBO CG 125 CG 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ESTRIBOS EN 125 CGL 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ESTRIBOS FZ 16</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ESTRIBOS NS 200 /CRB 250</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>ESTRIBOS DELANTERO CGL150 C/PARADOR LATERAL </h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>FAJA DE SCOOTER 125 - 743*20*30 TVR</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>FAJA SCOOTER 150 835X20X30</h3><p><strong>Marca:</strong>TVR</p></div>
+        <div class="producto-card"><h3>FAJA BATERIA G125L </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FLAPS MEDIANO LISO FLAPS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FLASH DIRECIONAL CG150  -  S/ Sonido (Tanaka)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>FLASH DIRECIONAL CG150  - C/ Sonido (Tanaka)</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>FLAPS PEQUEÑO C/RELIEVE UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FLAPS MEDIADO LISO UNIVERSAL </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>FLAPS MEDIANO C/RELIEVE UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>GRIFO GASOLINA CG 125 - BJR</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>GRIFO GASOLINA CG 125 Hilo Fino - Kigcol </h3><p><strong>Marca:</strong>KICGOL</p></div>
+        <div class="producto-card"><h3>GRIFO GASOLINA GL 125C/COPA </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>GUARDAVOLVO TELESCOPICAS NEGRO GL150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>GUARDAVOLVO TELESCOPICAS NEGRO CG/WY 150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>GUARDAVOLVO TELESCOPICAS LILA XL185</h3><p><strong>Marca:</strong>BUGALLO</p></div>
+        <div class="producto-card"><h3>GUARDAVOLVO TELOSCOPICAS NEGRO GL 150</h3><p><strong>Marca:</strong>HONGJU</p></div>
+        <div class="producto-card"><h3>HORQUILLA POST.DERECHA 18.CUADRADO GL150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>HORQUILLA POST.IZQUIERDA 18.CUADRADO GL150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>HORQUILLA POST.DERECHA 18.TOPE+OREJA  GL150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>HORQUILLA POST.IZQUIERDA 18.TOPE+OREJA GL150 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>IPONE BRAKE DOT4-500ML-UNIVERSAL</h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>IPONE CHAIN BLUE-250ML LUBRICANTE CADENA</h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>IPONE CHAIN WHITE-250ML LUBRICANTE CADENA</h3><p><strong>Marca:</strong>IPONE</p></div>
+        <div class="producto-card"><h3>INTERRUPTOR 3 SALIDAS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>INTERMITENTE UNIVERSAL</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>INTERRUPTOR CG125 CG150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JUEGO BRAZITOS OXILANTES CG 150</h3><p><strong>Marca:</strong>PREMIER</p></div>
+        <div class="producto-card"><h3>JUEGO TASAS HORQUILLA SCOOTER 125 SCOOTER 150 </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>JUEGO TASAS HORQUILLA SCOOTER 150/125 SCOOTER 150</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>JUEGO TASAS HORQUILLA SCOOTER 125 SCOOTER 125 </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>OJOS DE AGUILA ROJO FOCO LED</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>OJOS DE AGUILA LILA UNIVERSAL</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>OJOS DE AGUILA AZUL UNIVERSAL</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>OJOS DE AGUILA CELESTE </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>OJOS DE AGUILA CIELO  </h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>OJO DE DIABLO U14 UNIVERSAL</h3><p><strong>Marca:</strong>LED</p></div>
+        <div class="producto-card"><h3>OJO DE AGUILA ROJO FOCO LED  </h3><p><strong>Marca:</strong>MOTO</p></div>
+        <div class="producto-card"><h3>ORING DE BRIDA CARBURADOR RETENES</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>ORING TAPA DE BALANCIN ZS.150/200</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MEDIDOR DE ACEITE CG150 BJR </h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>MANIJA DE EMBRAGUE GL 150</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>MANIJA DE EMBRAGUE BROSS</h3><p><strong>Marca:</strong>TANAKA</p></div>
+        <div class="producto-card"><h3>MANIJA DE FRENO DERECHO+ BASE Y SWITCH ITALIKA</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MANGUERA DE DESFOGUE C/Seguro CG150</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MARCO PLACA METAL TORNASOL MCM002 Universal</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MANGUERA DESFOGUE MOTO CARGUERO</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MANGUERA FRENO HIDRAULICO 100CM</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>MANGUERA FRENO HIDRAULICA 120CM</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>MEDIA LUNA TUBO ESCAPE GL125</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>MASCARA PLASTICO NEGRO GL 150 MOTOTAXI </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MASCARA PLASTICO ROJA GL150 MOTOTAXI</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MODULO / CAPSULAS 12V - AMBAR</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MONOSHOCK NS200 PULSAR 200NS</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>MONOSHOCK BROWSS 200 305mm C/REGULADOR </h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>LAGRIMA LED. T10 LOZA ROJO 12V.</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>LAGRIMA LED. T10 LOZA AZUL 12V.</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>LAGRIMA LED. T10 LOZA BLANCO 12V.</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>LAGRIMA LED. T10 LOZA AMBAR 12V.</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>LAGRIMA LED. T10 LOZA LILA 12V.</h3><p><strong>Marca:</strong>NULL</p></div>
+        <div class="producto-card"><h3>LIMPIA CARBURADOR 296ML LUBRICANTE </h3><p><strong>Marca:</strong>VISTONI</p></div>
+        <div class="producto-card"><h3>LIQUIDO FRENO AZUL 4ONZAS DOT3 LUBRICANTES</h3><p><strong>Marca:</strong>VISTONI</p></div>
+        <div class="producto-card"><h3>LIMPIA CONTACTO 280ML LUBRICANTES</h3><p><strong>Marca:</strong>3MSI</p></div>
+        <div class="producto-card"><h3>LIMPIA CONTACTO 440ML LUBRICANTES</h3><p><strong>Marca:</strong>3MSI</p></div>
+        <div class="producto-card"><h3>PAQUETE EMBRAGUE YX300 (Cremallera) Kigcol</h3><p><strong>Marca:</strong>KIGCOL</p></div>
+        <div class="producto-card"><h3>PAQ. EMBRAGUE CG 150 5P-5D- 73T (Cremallera) BJR.</h3><p><strong>Marca:</strong>BJR</p></div>
+        <div class="producto-card"><h3>PATITO MOTERO C/CASCO BLACO LUZ / BJR universal </h3><p><strong>Marca:</strong>BJR</p></div>
+    </div>
+</section>
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Taller Mecánico Multiservicios Intercom</p>
+    </div>
+</footer>
+<script>
+function toggleCategorias() {
+    const botones = document.querySelectorAll('.categoria-btn');
+    botones.forEach(btn => btn.style.display = btn.style.display === 'inline-block' ? 'none' : 'inline-block');
+}
+function mostrarCategoria(nombre) {
+    document.querySelectorAll('.productos-grid').forEach(div => div.classList.add('hide'));
+    document.getElementById(nombre).classList.remove('hide');
+}
+</script>
+</body>
+</html>
